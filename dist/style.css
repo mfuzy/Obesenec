@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(151, 176, 243);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(18, 52, 104);
+}
+
+.pismeno,
+#vstup input {
+  font-size: 1em;
+  font-weight: bold;
+  width: 1em;
+  padding: 2px;
+  text-align: center;
+  border: 1px solid rgb(18, 52, 104);
+  box-shadow: 2px 2px 5px rgb(18, 52, 104);
+  color: rgb(18, 52, 104);
+}
+
+#vstup {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(18, 52, 104);
+  margin-bottom: 50px;
+}
+
+.pismeno {
+  margin: 5px;
+}
+
+#veta {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  border: 2px solid rgb(45, 82, 138);
+  box-shadow: 10px 10px 10px rgb(41, 101, 192);
+  border-radius: 10px;
+}
+
+canvas {
+  display: block;
+  margin: 10px auto;
+}
+
+.podklad {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.alert,
+.alert2 {
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  margin-top: -70px;
+  margin-left: -130px;
+  height: 140px;
+  width: 260px;
+}
+
+.alert {
+  background: rgb(114, 145, 185);
+  text-align: center;
+}
+
+.alert2 {
+  text-align: right;
+}
+
+.alert h3 {
+  margin: 40px 0;
+}
+
+.alert2 div {
+  text-align: center;
+}
+
+.alert2 h3 {
+  margin-bottom: 30px;
+}
+
+.vyhra,
+.prehra {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vyhra {
+  background-image: url("images/vyhra.jpg");
+}
+
+.prehra {
+  background-image: url("images/prehra.jpg");
+}
